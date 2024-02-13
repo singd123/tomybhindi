@@ -1,5 +1,5 @@
 #modeSwitch {
-    background-color: #7a2ce8;
+    background-color: #2a3671;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -48,31 +48,43 @@ h1 {
     font-weight: bold;
 }
 .dark-mode .lunar-card {
-    background-color: #333;
+    background-color: #17328b;
     color: ghostwhite;
-}
-
-.lunar-card:hover {
-    background-color: #f0f0f0;
-}
-.lunar-card:hover {
-    background-color: #f0f0f0;
-}
-.lunar-card {
     text-align: center;
-    background-color: #fff;
-    color: #fff;
     width: 50%;
     padding: 20px;
     margin: 10px;
-    font-size: 20pt;
+    font-size: 15pt;
     position: relative;
     left: 23%;
-    top: 50%;
+    top: 25%;
     font-family: "the-seasons", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
-    line-height: 10px;
+    line-height: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ .dark-mode .lunar-card:hover {
+    background-color: #112047;
+}
+
+.lunar-card {
+    text-align: center;
+    background-color: #000000;
+    color: #000000;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 15pt;
+    position: relative;
+    left: 23%;
+    top: 25%;
+    font-family: "the-seasons", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 18px;
     border-radius: 8px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -92,10 +104,30 @@ body {
     width: auto;
 }
 ::selection {
-    background: rgba(255, 255, 255, 0.6);
-    color: rgba(139, 0, 139, 0.6);
+    background: rgba(255, 255, 255, 0.786);
+    color: rgba(0, 37, 139, 0.6);
+}
+.dark-mode .details {
+    display: none;
+    font-family: "the-seasons", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    line-height: 20px;
 }
 
+.dark-mode .info {
+    font-size: 12pt;
+}
+
+.dark-mode .time {
+    color: #b868e4;
+    font-family: "the-seasons", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 18px;
+    font-size: 12pt;
+}
 body {
     display: block;
     margin: 8px;
