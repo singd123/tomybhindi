@@ -1,0 +1,13 @@
+
+.flex-container {
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+body {
+    
+    background-color: black ;
+    width: auto;
+    margin: 8px;
+}
