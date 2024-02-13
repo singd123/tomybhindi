@@ -23,7 +23,7 @@ body {
 
 .hello { 
     position: relative;
-    left: 1000px;
+    left: 1300px;
     top: -737px;
 }
 
@@ -40,7 +40,7 @@ body {
     color: ghostwhite;
     text-align: center;
     position: relative;
-    top: -1574px;
+    top: -1474px;
 }
 
 h1 { 
@@ -72,16 +72,6 @@ h2 {
     color: ghostwhite;
 }
 
-
-
-
-
-
-
-
-
-
-
 .confetti-container {
     user-select: none;
     z-index: 100;
@@ -89,7 +79,7 @@ h2 {
   }
   .confetti {
     position: relative;
-    left: 10%;
+    left: 15%;
     top: -1070px;
     display: flex;
     width: 1000px;
