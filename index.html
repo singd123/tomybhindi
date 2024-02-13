@@ -4,12 +4,10 @@
         <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
-
             <link rel="stylesheet" href="https://use.typekit.net/ing7kde.css">
             <link rel="stylesheet" href="https://use.typekit.net/xhd0kmk.css">
             <link rel="stylesheet" href="https://use.typekit.net/jfs6aup.css">
             <link rel="stylesheet" href="https://use.typekit.net/ury3cui.css">
-    
         <title>To My Bhindi</title>
     </head> 
     <body>
@@ -20,7 +18,7 @@
             <h3>Happy Valentine's Day</h3>
             <p class="info">To my special guy...</p>
             <br>
-            <div class="details" style="display: block;">
+            <div class="details" >
                 <p> <span class="time">here's to us, similing, laughing, shouting, chilling, fighting, crying, <br> all the good and ugly that 
                     makes you and me "us". </span><br> <br> <br> <br> 
              I don't know if i say this often but, I have been out there with different poeple, had my fair share of experiences, with you 
@@ -32,27 +30,32 @@
              not the time difference, not what anyone says, nothing will ever make me not love you. Thank you for having my back, baring me and loving me, 
              hope we continue to do so forever. I love you Meri Bhindi!!!  </p>
             </div>
-
-            <br>
-            <br>
-            <br>
+            
             <br>
 
         </div>
+
+         <br> 
+         <br>
+         <br>
+         <a href="http://">next</a>
+         <br>
+         <br>
+
         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     </body>
     <script>
+$(document).ready(function () {
+    $('.lunar-card').click(function () {
+        $(this).find('.details').slideToggle();
+    });
 
-        $(document).ready(function () {
-        $('.lunar-card').click(function () {
-            $(this).find('.details').slideToggle();
-        });
+    $('#modeSwitch').click(function () {
+        $('body').toggleClass('dark-mode');
+        $('#glowText').toggleClass(''); 
+        $('.square').toggleClass('show'); // Corrected line
+    });
+});
 
-        $('#modeSwitch').click(function () {
-            $('body').toggleClass('dark-mode');
-            $('#glowText').toggleClass(''); 
-            $('.square').toggleClass('.show'); 
-        });
-        });
 </script>
 </html>
