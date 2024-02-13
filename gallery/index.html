@@ -12,15 +12,56 @@
     </head> 
     <body>
 
-        <marquee behavior="scroll" direction="right" scrollmount="8">
+        <marquee behavior="scroll" direction="down" scrollmount="8">
             <div class="flex-container">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
+                <div class="img"><img src="1.JPG" alt=""></div>
+                <div class="img"><img src="2.JPG" alt=""></div>
+                <div class="img"><img src="11.JPEG" alt=""></div>
+                <div class="img"><img src="4.JPG" alt=""></div>
+                <div class="img"><img src="9.JPEG" alt=""></div>
+                <div class="img"><img src="8.JPEG" alt=""></div>
+                <div class="img"><img src="10.JPEG" alt=""></div>
+                <div class="img"><img src="13.JPEG" alt=""></div>
+                <div class="img"><img src="19.JPEG" alt=""></div>
+                <div class="img"><img src="18.JPEG" alt=""></div>
               </div>
         </marquee>
-     
 
+        <marquee behavior="scroll" direction="up" scrollmount="20" class="hello">
+            <div class="flex-container" id="flex2">
+                <div class="img"><img src="6.JPEG" alt=""></div>
+                <div class="img"><img src="7.JPEG" alt=""></div>
+                <div class="img"><img src="12.JPEG" alt=""></div>
+                <div class="img"><img src="5.JPEG" alt=""></div>
+                <div class="img"><img src="8.JPEG" alt=""></div>
+                <div class="img"><img src="14.JPEG" alt=""></div>
+                <div class="img"><img src="20.JPEG" alt=""></div>
+              </div>
+        </marquee>
+        
+
+        <div class="yes"> 
+            <h1>Will you be <br> 
+            My Valentine?</h1>
+            <label>
+              <input type="radio" name="choice-radio">
+              Yes
+            </label>
+            <a href="yay.html" id="yesLink">
+            <label>
+              <input type="radio" name="choice-radio" id="yesRadio">
+              YES!
+            </label>
+            </a>
+          </div>
+          <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     </body>
+    <script>
+        document.getElementById("yesLink").addEventListener("click", function() {
+            // Check if the "YES!" radio button is selected before navigating
+            if (document.getElementById("yesRadio").checked) {
+                window.location.href = "yay.html";
+            }
+        });
+    </script>
 </html>

@@ -134,7 +134,12 @@ body {
 }
 
 #link { 
-    text-align: right;    
+    text-align: center;
+    justify-content: center;
+
+    position: relative;
+    left: 50%;
+    top: 200px;
 }
 
 
