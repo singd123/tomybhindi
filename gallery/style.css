@@ -3,12 +3,12 @@
 #flex2 { 
     position: fixed;
     left: 1200px;
-    top: -750px;
+    top: -800px;
 }
 
 #flex1 { 
     position: fixed;
-    top: -750px;
+    top: -800px;
 }
 
 img {
@@ -85,7 +85,7 @@ body {
     color: ghostwhite;
     text-align: center;
     position: relative;
-    top: -370px;
+    top: -230px;
 }
 
 
